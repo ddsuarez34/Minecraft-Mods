@@ -5,3 +5,5 @@
 We are using packwiz MC mod manager. Helps with creating, downloading and distributing a modpack.
 
 - [Guide](https://packwiz.infra.link/tutorials/creating/getting-started/)
+
+- When pushed, .packwiz file is served at https://ddsuarez34.github.io/Minecraft-Mods/modpack/pack.toml.

@@ -7,6 +7,9 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
+      PACKWIZ_URL: "https://ddsuarez34.github.io/Minecraft-Mods/modpack/pack.toml"
+      TYPE: "NEOFORGE"          # or FABRIC / omit for vanilla
+      VERSION: "1.21.1"      # your target MC version
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
