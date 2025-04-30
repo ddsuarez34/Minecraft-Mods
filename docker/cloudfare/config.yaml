@@ -1,0 +1,10 @@
+tunnel: 25da5359-ea06-4346-989a-30a9c23f4714 # <YOUR_TUNNEL_UUID>
+credentials-file: tunnel_credentials.json
+
+ingress:
+  - hostname: play.endor-mc.online
+    service: tcp://localhost:25565
+  - service: http_status:404 # catch-all
+
+# cloudflared tunnel --config config.yaml route dns endor-mc play.endor-mc.online
+# cloudflared tunnel --config config.yaml run endor-mc

@@ -5,10 +5,10 @@ services:
     stdin_open: true
     ports:
       - "25565:25565"
-      - "24454:24454" # Simple Voice Chat mod UDP port open.
+      - "24454:24454/udp" # Simple Voice Chat mod UDP port open.
     environment:
       EULA: "TRUE"
-      PACKWIZ_URL: "http://host.docker.internal:8080/pack.toml"
+      PACKWIZ_URL: "https://ddsuarez34.github.io/Minecraft-Mods/modpack/pack.toml"
       TYPE: "NEOFORGE"          # or FABRIC / omit for vanilla
       MEMORY: 4G 
 
@@ -18,26 +18,26 @@ services:
       RCON_PASSWORD: "${RCON_PASSWORD}"
 
       #––– Auto-Stop settings –––
-      ENABLE_AUTOSTOP: "true"             # turn on auto-stop
-      AUTOSTOP_TIMEOUT_INIT: "600"        # secs after start with 0 joins → stop
-      AUTOSTOP_TIMEOUT_EST: "1200"        # secs after last disconnect → stop
-      AUTOSTOP_PERIOD: "10"               # check-loop period (secs)
+      # ENABLE_AUTOSTOP: "true"             # turn on auto-stop
+      # AUTOSTOP_TIMEOUT_INIT: "600"        # secs after start with 0 joins → stop
+      # AUTOSTOP_TIMEOUT_EST: "600"        # secs after last disconnect → stop
+      # AUTOSTOP_PERIOD: "10"               # check-loop period (secs)
 
     volumes:
       - mc_data:/data
 
-  discord-bot:
-    build: ./bot
-    depends_on:
-      - mc-server
-    environment:
-      # your Discord bot token
-      DISCORD_TOKEN: "${DISCORD_TOKEN}"
-      # point at the RCON exposed by mc-server
-      RCON_HOST: mc-server
-      RCON_PORT: 25575
-      RCON_PASSWORD: "${RCON_PASSWORD}"
-    restart: on-failure
+  # discord-bot:
+  #   build: ./bot
+  #   depends_on:
+  #     - mc-server
+  #   environment:
+  #     # your Discord bot token
+  #     DISCORD_TOKEN: "${DISCORD_TOKEN}"
+  #     # point at the RCON exposed by mc-server
+  #     RCON_HOST: mc-server
+  #     RCON_PORT: 25575
+  #     RCON_PASSWORD: "${RCON_PASSWORD}"
+  #   restart: on-failure
 
 volumes:
   mc_data:
