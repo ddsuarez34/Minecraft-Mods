@@ -1,4 +1,4 @@
-name = "endor_server"
+name = "endor"
 author = "La Comunidad del Anillo"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "cbf2dad653ed6dddf4207222552a236289d17b49539237e21ff23735f9dca2de"
+hash = "e963e2c28a06fb8e72045bde3c9ee42e9a70f2ef750401c74d9c5d2fa5679cee"
 
 [versions]
 minecraft = "1.21.1"

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/antique-atlas-4.pw.toml"
-hash = "03ff831cb8084db62a0c1ce791091f4b119956b9f3bacfa140ba4689cfd978a8"
+hash = "c076df55219cc277e1fe09f0b61d62f0569bba2b753dad177223efa4d660d9e7"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "007ca3fb8a617776705f8f38eab60a286fed6426a0ee1d792af6814f1bc24174"
+hash = "6adf694696d6e82f3a08ae295a54697b4f6c14c02ebfd3978eb9017ffbee50af"
 metafile = true
 
 [[files]]
