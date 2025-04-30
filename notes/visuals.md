@@ -14,3 +14,7 @@
   **dependencies:**
   - TerraBlender
   - GlitchCore
+
+**3D-skin-layers**
+
+- Skin models look better for players.

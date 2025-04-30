@@ -1,5 +1,7 @@
 ## Quality of Life Mods
 
+- **cloth-api**
+  Shows mod configuration menu for client-side mods .
 - **appleskin**  
   Shows hunger/saturation bars and food value overlays — essential for managing food more smartly.
 

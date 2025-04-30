@@ -1,5 +1,14 @@
 # Performance / Functionality Mods
 
+- **lithium**  
+  Optimizes game logic
+
+- **sodium**  
+  Optimizes rendering.
+
+- **entity-culling**  
+  Optimizes block/entity rendering.
+
 - **clumps**  
   Merges XP orbs together to reduce lag when lots of XP is dropped (e.g., mob farms).
 
@@ -11,3 +20,9 @@
 
 - **modflare**
   Create a cloudfare tunnel using a bundled client `cloudfared`. The servers must contain TXT record entry "cloudflared-route=play.endor-mc.online", and a DNS entry to resolve `play.endor-mc.online` that points to the tunnel.
+
+- **ModernFix**
+  More animations and patch optimizations
+
+  - **simple-voice-chat**
+    Proximity chat
