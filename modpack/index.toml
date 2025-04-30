@@ -89,23 +89,3 @@ metafile = true
 file = "mods/waystones.pw.toml"
 hash = "e6dac682b8d3b8c050da2b40bc27f1be67aa1433e3c6420a546cc2829a5c6224"
 metafile = true
-
-[[files]]
-file = "notes/gameplay.md"
-hash = "b1cfcea7e16b5ebe885b37f03b9cc2b9286346324593f7cd9ece4fcddbb3a8fa"
-
-[[files]]
-file = "notes/mobs.md"
-hash = "a902a2a43d9f49426070dc58f0d4712867fd0fbac6179cc21cc53ca4995e3d25"
-
-[[files]]
-file = "notes/performance.md"
-hash = "4d4a60c521ffda08d965bb6ec383ab469f4e57dc6ce20e70a938a32238f3c45e"
-
-[[files]]
-file = "notes/qol.md"
-hash = "459efc897e8f650f5056cc85a3f2a8f434f1da0c62028bd17be933d76b760623"
-
-[[files]]
-file = "notes/visuals.md"
-hash = "1cf7b0a79d6f228198c04a1f1b0d9be256c1682b42213bd5602dddaead87c69b"
