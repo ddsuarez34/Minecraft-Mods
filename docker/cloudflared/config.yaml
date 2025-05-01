@@ -3,9 +3,7 @@ credentials-file: tunnel_credentials.json
 
 ingress:
   - hostname: play.endor-mc.online
-    service: tcp://localhost:25565
-  - hostname: play.endor-mc.online
-    service: udp://localhost:24454
+    service: tcp://mc-server:25565
   - service: http_status:404 # catch-all
 
 # cloudflared login
