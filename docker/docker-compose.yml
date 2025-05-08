@@ -8,11 +8,15 @@ services:
     ports:
       - "25565:25565"
       - "24454:24454/udp"   # voice chat UDP port
+      - "61218:61218/udp"   # voice chat UDP port
+
     environment:
       PACKWIZ_URL: "http://host.docker.internal:8080/pack.toml"
       # PACKWIZ_URL: "https://ddsuarez34.github.io/Minecraft-Mods/modpack/pack.toml"
       EULA: "TRUE"
       TYPE: "NEOFORGE"
+      VERSION:            "1.21.1"      # Minecraft version
+      FORGEVERSION:       "21.1.169"    # NeoForge (Forge) version
       MEMORY: 4G
       RCON_ENABLE: "true"
       RCON_PORT: 25575
@@ -38,21 +42,12 @@ services:
 
   playit:
     image: ghcr.io/playit-cloud/playit-agent:latest
+    network_mode: host              # <— use host networking
     restart: unless-stopped
     depends_on:
       - mc-server   # ensures ordering, but won’t wait for health
     env_file:
       - ./playit/.env               # contains SECRET_KEY=<your playit.gg API token>
-    command: >
-        sh -c "
-        playit connect \
-          RUST_LOG=warn \
-          --local-host mc-server \
-          --local-port 24454 \
-          --remote-port 24454 \
-          --protocol udp &
-        "
 
 volumes:
   mc_data:
-    external: true

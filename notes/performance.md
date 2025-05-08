@@ -24,5 +24,5 @@
 - **ModernFix**
   More animations and patch optimizations
 
-  - **simple-voice-chat**
-    Proximity chat
+- **simple-voice-chat**
+  Proximity chat

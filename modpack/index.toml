@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "95c99218cf921ea1ad9670133ee059eb04eb918c1186bc2b724d92361a154b35"
+hash = "0872ab1e09fc8246dd0b6164feacd11b21c9ac13b27a4ba407305679b6a8f50e"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
