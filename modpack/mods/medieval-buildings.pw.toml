@@ -1,0 +1,13 @@
+name = "Medieval Buildings"
+filename = "medieval_buildings-1.21-1.1.0-neo.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sc9lpPiU/versions/ZyuSyeuy/medieval_buildings-1.21-1.1.0-neo.jar"
+hash-format = "sha512"
+hash = "74f1318e02f55d3e50eba5eee12fcf1c50c2ee885a437770efa4b42c50ad05c1b0dab8eab2ccc238e1264fb1304f8a026f847a8626278ac74c43aa93553831d9"
+
+[update]
+[update.modrinth]
+mod-id = "sc9lpPiU"
+version = "ZyuSyeuy"
