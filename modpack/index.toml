@@ -149,6 +149,11 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "71a13b97580c7e077d1f0c279e8888fc11ae59f9a3a29852d2cb222d37c12ba1"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "c604862c7db098f8edcfa6aa1ebc4e235b3008fdbc61450c0da9c3c234513a54"
 metafile = true
@@ -196,6 +201,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "77b86ca843207273549875640b1c16254c2486e67127c37344c186b503da96ed"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
 metafile = true
 
 [[files]]
@@ -269,6 +279,11 @@ hash = "9c454f3b26fea7aa3e04b6edecf5707a74927dcf63715ffa01b248bd9ffefc41"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "4c4185186dccb224e20da04103e40c32cfe11b8c6884b83e8d6ac60857daf969"
+metafile = true
+
+[[files]]
 file = "mods/scribble.pw.toml"
 hash = "3ad87fbb20108d7aa5c89759f64d6695e5ec68553f32976f0710bd0a4d34d85b"
 metafile = true
@@ -334,13 +349,13 @@ hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
 metafile = true
 
 [[files]]
-file = "mods/you-died.pw.toml"
-hash = "d8a49dbc4f7150a428a18d5170aad9c12e83c548ebe441cf4aa87dd8ce50656c"
+file = "mods/yawp.pw.toml"
+hash = "a0b25d943a6abd793d63d98931585dea01db88d5bc0861be52769f30dc97b139"
 metafile = true
 
 [[files]]
-file = "plugins/worldguard.pw.toml"
-hash = "f1346bc1bdb2f4d6ff51bee6ceaf2620648bd46cd3837485c52e95842d08a8ce"
+file = "mods/you-died.pw.toml"
+hash = "d8a49dbc4f7150a428a18d5170aad9c12e83c548ebe441cf4aa87dd8ce50656c"
 metafile = true
 
 [[files]]
