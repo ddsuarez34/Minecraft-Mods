@@ -43,7 +43,7 @@ services:
       interval: 10s
       retries: 5
     volumes:
-      - mc_data:/data
+      - ./data:/data
       - ./assets/endor-logo.jpeg:/endor-logo.jpeg
 
   cloudflared:
@@ -57,8 +57,16 @@ services:
     volumes:
       - ./cloudflared/config.yaml:/etc/cloudflared/config.yaml:ro
       - ./cloudflared/tunnel_credentials.json:/etc/cloudflared/tunnel_credentials.json:ro
+    deploy:
+      resources:
+        limits:
+          memory: 100M  # Hard cap (cloudflared rarely exceeds 50MB)
+          cpus: '0.25'  # Max 25% of 1 CPU core
+        reservations:
+          memory: 50M   # Guaranteed minimum
 
   playit:
+    platform: linux/amd64 # UNCOMMENT if you are on M1/2/3 chip
     image: ghcr.io/playit-cloud/playit-agent:latest
     network_mode: host              # <— use host networking
     restart: unless-stopped
@@ -66,6 +74,14 @@ services:
       - mc-server   # ensures ordering, but won’t wait for health
     env_file:
       - ./playit/.env               # contains SECRET_KEY=<your playit.gg API token>
+    deploy:
+      resources:
+        limits:
+          memory: 300M  # Hard cap (playit rarely needs >200MB)
+          cpus: '0.5'   # Max 50% of 1 CPU core
+        reservations:
+          memory: 100M  # Guaranteed minimum
 
-volumes:
-  mc_data:
+# volumes:
+#   mc_data:
+#     name: mc_data

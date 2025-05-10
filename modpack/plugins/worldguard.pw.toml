@@ -1,0 +1,13 @@
+name = "WorldGuard"
+filename = "worldguard-bukkit-7.0.12-dist.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "85689d36f5fc052031f1df37e44bb608cf075314"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5719698
+project-id = 31054

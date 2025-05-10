@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "0872ab1e09fc8246dd0b6164feacd11b21c9ac13b27a4ba407305679b6a8f50e"
+hash = "b8ef72e4ecb968e01cfc438f1c899942347229bc827872b089a9bf6dd884ecd6"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "e4ab1af690e44f9b8f9eda85081916a65b0d9ba25cdb04495ad52d36c8fead8c"
+hash = "d998c5d23217f2662c8b5f74e82af1f7292670d05017442b57904dae7c6dc389"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -69,6 +69,11 @@ hash = "71434caad33d734bcafdb976be3f7c6e90cea1ac13c9ebb292d1b96562b2588b"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -111,11 +116,6 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "54a9f92c92aebcbb913c0fcf1d3d3430214b612fe7f4b9901528b6a60d4f425f"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "6adf694696d6e82f3a08ae295a54697b4f6c14c02ebfd3978eb9017ffbee50af"
 metafile = true
 
 [[files]]
@@ -179,6 +179,11 @@ hash = "019fea93516a470bbcad284dd0cbad6f4e2914d96221c86e3f87c12fe6321e10"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "c3c06a4839ecfd4717686f7394396a4fc66b7a2e8eabbdd51f23ab2a1099cc1e"
+metafile = true
+
+[[files]]
 file = "mods/item-highlighter.pw.toml"
 hash = "9163b758163681f75e2048c798be880c50392684b127d7d87f42ea588deceb62"
 metafile = true
@@ -201,6 +206,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
+metafile = true
+
+[[files]]
+file = "mods/littlepictureframes.pw.toml"
+hash = "379f6bfc2b7531c35c1a8904a4012e22bdb51dde8f04a1e3c2e3be17dd1680f6"
 metafile = true
 
 [[files]]
@@ -304,6 +314,11 @@ hash = "04be992955c05af26bb1ae02aeb81b84b74e548da6163d80058f50bd55ba9992"
 metafile = true
 
 [[files]]
+file = "mods/watermedia.pw.toml"
+hash = "eef977bcac4bfd222529a55088771722227f25ff8174338809783a7871caa27d"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "e6dac682b8d3b8c050da2b40bc27f1be67aa1433e3c6420a546cc2829a5c6224"
 metafile = true
@@ -314,8 +329,18 @@ hash = "4ba42e13f09ee4ea555e430aadc54b2d6e4ffa0ac2f0aebfa5a0542f193c5f47"
 metafile = true
 
 [[files]]
+file = "mods/worldedit.pw.toml"
+hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
+metafile = true
+
+[[files]]
 file = "mods/you-died.pw.toml"
 hash = "d8a49dbc4f7150a428a18d5170aad9c12e83c548ebe441cf4aa87dd8ce50656c"
+metafile = true
+
+[[files]]
+file = "plugins/worldguard.pw.toml"
+hash = "e7e0da559011b5f8d8a19e0142b6a277f8b3229c7325352f7c4955e95d858f95"
 metafile = true
 
 [[files]]

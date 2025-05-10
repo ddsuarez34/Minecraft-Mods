@@ -22,7 +22,7 @@ Click each section to expand.
 - **Surveyor Map Framework**: Map rendering and minimap features.
 - **TerraBlender**: World generation API for custom biomes.
 - **TslatEntityStatus**: Displays entity status effects in HUD.
-
+- **Iris**: Support for shaders. 
 </details>
 
 <details>
@@ -77,7 +77,7 @@ Click each section to expand.
 - **Sinytra Connector**: Syncs data between server and clients.
 - **Sodium**: (see Visual & Rendering)
 - **Surveyor Map Framework**: (see Core Libraries & APIs)
-
+- **Carry On**: Can pick up mobs. Shift (can be rebound) + Right-Click (with Empty Hands) on any Tile Entity or mob to lift and carry. Right-Click to place
 </details>
 
 <details>
