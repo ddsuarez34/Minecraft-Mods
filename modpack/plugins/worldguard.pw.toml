@@ -1,6 +1,6 @@
 name = "WorldGuard"
 filename = "worldguard-bukkit-7.0.12-dist.jar"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha1"

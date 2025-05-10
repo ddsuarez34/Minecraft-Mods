@@ -340,7 +340,7 @@ metafile = true
 
 [[files]]
 file = "plugins/worldguard.pw.toml"
-hash = "e7e0da559011b5f8d8a19e0142b6a277f8b3229c7325352f7c4955e95d858f95"
+hash = "f1346bc1bdb2f4d6ff51bee6ceaf2620648bd46cd3837485c52e95842d08a8ce"
 metafile = true
 
 [[files]]
