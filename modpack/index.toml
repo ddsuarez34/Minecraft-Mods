@@ -5,6 +5,10 @@ file = "config/voicechat/voicechat-server.properties"
 hash = "0872ab1e09fc8246dd0b6164feacd11b21c9ac13b27a4ba407305679b6a8f50e"
 
 [[files]]
+file = "config/waystones-common.toml"
+hash = "e4ab1af690e44f9b8f9eda85081916a65b0d9ba25cdb04495ad52d36c8fead8c"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a34cb55f2a55e2a4e47d6954948387105c14f0d0f2e800d003e1e7ec19c2904f"
 metafile = true
@@ -277,6 +281,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
