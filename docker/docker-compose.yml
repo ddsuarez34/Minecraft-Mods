@@ -17,16 +17,34 @@ services:
       TYPE: "NEOFORGE"
       VERSION:            "1.21.1"      # Minecraft version
       FORGEVERSION:       "21.1.169"    # NeoForge (Forge) version
-      MEMORY: 4G
+      MEMORY: 6G
       RCON_ENABLE: "true"
       RCON_PORT: 25575
       RCON_PASSWORD: "${RCON_PASSWORD}"
+      ICON: /endor-logo.jpeg
+      OVERRIDE_ICON: true
+      MOTD: "LARGA VIDA AL PUEBLO, LARGA VIDA A §l§cENDOR§r"
+      OPS: |
+        ch0rizard
+      SPAWN_PROTECTION: 0
+      VIEW_DISTANCE: 8
+      SIMULATION_DISTANCE: 6
+      JVM_OPTS: >
+        -XX:InitiatingHeapOccupancyPercent=40
+        -XX:G1MixedGCCountTarget=8
+        -XX:SurvivorRatio=32
+        -XX:+UseStringDeduplication
+        -XX:+AlwaysPreTouch
+        -XX:MaxMetaspaceSize=512M
+        -Xlog:gc*:file=/data/logs/gc.log:time,uptime,tags:filecount=5,filesize=10M
+
     healthcheck:
       test: ["CMD", "bash", "-lc", "nc -z localhost 25565"]
       interval: 10s
       retries: 5
     volumes:
       - mc_data:/data
+      - ./assets/endor-logo.jpeg:/endor-logo.jpeg
 
   cloudflared:
     image: cloudflare/cloudflared:latest
