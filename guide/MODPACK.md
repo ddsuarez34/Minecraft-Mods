@@ -78,6 +78,7 @@ Click each section to expand.
 - **Sodium**: (see Visual & Rendering)
 - **Surveyor Map Framework**: (see Core Libraries & APIs)
 - **Carry On**: Can pick up mobs. Shift (can be rebound) + Right-Click (with Empty Hands) on any Tile Entity or mob to lift and carry. Right-Click to place
+- **Sophisticated Backpacks**: Can craft [backpacks](https://modrinth.com/mod/sophisticated-backpacks). See recipes in JEI. 
 </details>
 
 <details>

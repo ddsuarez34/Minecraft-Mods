@@ -309,6 +309,16 @@ hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "6aa50ee43365752d9f25b9b30cbc89728f1ca9f598e4a2e6995a2f9e0fce50b0"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "75fb6ce73867a067e6a5828607ba13fc8d6cdf3e02ea521dcf602b610dbaff0a"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
@@ -342,6 +352,10 @@ metafile = true
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "4ba42e13f09ee4ea555e430aadc54b2d6e4ffa0ac2f0aebfa5a0542f193c5f47"
 metafile = true
+
+[[files]]
+file = "mods/wolfcompanion-1.21.1_8.jar"
+hash = "fa2d62adeaed5848974ac6ab03563f453e3f2ad1ca0bb0e7487225fb04df4cfb"
 
 [[files]]
 file = "mods/worldedit.pw.toml"

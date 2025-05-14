@@ -26,6 +26,7 @@ services:
       MOTD: "LARGA VIDA AL PUEBLO, LARGA VIDA A §l§cENDOR§r"
       OPS: |
         ch0rizard
+        Jogigis
       SPAWN_PROTECTION: 0
       VIEW_DISTANCE: 8
       SIMULATION_DISTANCE: 6
