@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "b8ef72e4ecb968e01cfc438f1c899942347229bc827872b089a9bf6dd884ecd6"
+hash = "d4565f7cf1493e8f3d3c6dad360d3d4acaaeb1c9ed910ba28d3f2576482c4842"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -14,8 +14,13 @@ hash = "a34cb55f2a55e2a4e47d6954948387105c14f0d0f2e800d003e1e7ec19c2904f"
 metafile = true
 
 [[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "18cf2b63d293ba0738c1073690fbd2c62305b161f76d346a551a66a9bbf8af32"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "2fbe3b219293c7eab76215939a7f8ef19f10991e41b1c19999d9dd9e9e8e0f01"
+hash = "8117d0aafa3827fa7d10749b162855599e79714fb3063edc4443cf6198282496"
 metafile = true
 
 [[files]]
@@ -40,12 +45,12 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "b3f0d204ccdd95625e46cc7eec5901802e0e15fd7edf3af652c82d051b12ae4e"
+hash = "cfb541dea092919eec36156552e1b07fbadf67c2de1c1a827d982ef9fabfea90"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "081fe633c2c73b0d5e37a81d3973502d563f5d545246fde0510a2004ece78f95"
+hash = "146dd7165c696bfa10cd8e6fa90dd5b2578244ecd35e041557b76b0cff2d0fa6"
 metafile = true
 
 [[files]]
@@ -60,7 +65,7 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "5af1ab48d40722d15489800cdd9cf14e816a094f0b18232a3746d0362ac38684"
+hash = "01db6a5a2ea5d1af973d392ddc726d8ccecc56984ed39932eb3d077b21ab6cf8"
 metafile = true
 
 [[files]]
@@ -95,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "0a4d0034c5a1379d5aa57c0a104aaa2adbb98f1e2b89d4ec0b7ef68df2e16a1a"
+hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
 metafile = true
 
 [[files]]
@@ -115,7 +120,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "54a9f92c92aebcbb913c0fcf1d3d3430214b612fe7f4b9901528b6a60d4f425f"
+hash = "baa9316fae6748bc9b0f4ff7cb3019c7456519a1cf15ab1c169600bbb3af930e"
 metafile = true
 
 [[files]]
@@ -126,6 +131,11 @@ metafile = true
 [[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
+metafile = true
+
+[[files]]
+file = "mods/effect-descriptions.pw.toml"
+hash = "96b6e4c94a5cd6bf6a8fbb7421da1237e7674198161f157b56ea7b1a387c42eb"
 metafile = true
 
 [[files]]
@@ -155,12 +165,12 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "c604862c7db098f8edcfa6aa1ebc4e235b3008fdbc61450c0da9c3c234513a54"
+hash = "cb56550a957dd44cab4f9102aa588cd22421cd6b4099a03ac7b1b167c23c0f13"
 metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "159ff6f2ccc1c41ef2f615c804ba8b04aa27c8273ef1845a66bc7a40fdad88e5"
+hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
 metafile = true
 
 [[files]]
@@ -200,7 +210,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "77b86ca843207273549875640b1c16254c2486e67127c37344c186b503da96ed"
+hash = "44634200be079994523f61e1a4b2878f4d2e1b59d52378391aa81192b1d15bf1"
 metafile = true
 
 [[files]]
@@ -221,6 +231,11 @@ metafile = true
 [[files]]
 file = "mods/littlepictureframes.pw.toml"
 hash = "379f6bfc2b7531c35c1a8904a4012e22bdb51dde8f04a1e3c2e3be17dd1680f6"
+metafile = true
+
+[[files]]
+file = "mods/magnum-torch.pw.toml"
+hash = "f0c97c0212ddda5c012ba451a123d4b39e89f402cc70d38d31dc9098736ec07f"
 metafile = true
 
 [[files]]
@@ -250,7 +265,7 @@ metafile = true
 
 [[files]]
 file = "mods/nemos-inventory-sorting.pw.toml"
-hash = "5f0cb01af41a9ef9e9a258300363f31ce931114993782acf4850144332e1de04"
+hash = "fdf4ea21466a92d1c6616fa5dd0a575294fd93a8c3bbb27ea67f800d6c66637d"
 metafile = true
 
 [[files]]
@@ -275,7 +290,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "9c454f3b26fea7aa3e04b6edecf5707a74927dcf63715ffa01b248bd9ffefc41"
+hash = "b27fedf73ce2b829db06bf18fea5afd33f0a001b75465301c7f5bafe7e3c04d8"
+metafile = true
+
+[[files]]
+file = "mods/reap-mod.pw.toml"
+hash = "4fb8d1b5b8ffebcb71908b530daf99b0c33a3c2ad54dcf44524338e15c33ec60"
 metafile = true
 
 [[files]]
@@ -310,12 +330,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "6aa50ee43365752d9f25b9b30cbc89728f1ca9f598e4a2e6995a2f9e0fce50b0"
+hash = "73e000d5ed71e3d58084429d4dc7d2dbd63b770ec2a2f238e975e4d6c00d4542"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "75fb6ce73867a067e6a5828607ba13fc8d6cdf3e02ea521dcf602b610dbaff0a"
+hash = "0a6f800dd6d1cddbf8df8bb2a3eefde9eacd2009cfb1d474e9b8c1b726763321"
 metafile = true
 
 [[files]]
@@ -345,17 +365,13 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "e6dac682b8d3b8c050da2b40bc27f1be67aa1433e3c6420a546cc2829a5c6224"
+hash = "83c2f33a6656799f209ee75d63da20c4e692202371a221fd853792dad6113d7e"
 metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "4ba42e13f09ee4ea555e430aadc54b2d6e4ffa0ac2f0aebfa5a0542f193c5f47"
 metafile = true
-
-[[files]]
-file = "mods/wolfcompanion-1.21.1_8.jar"
-hash = "fa2d62adeaed5848974ac6ab03563f453e3f2ad1ca0bb0e7487225fb04df4cfb"
 
 [[files]]
 file = "mods/worldedit.pw.toml"
